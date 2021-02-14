@@ -29,7 +29,7 @@ const index = () => {
                 </span>
 
                 <AppsIcon/>
-                <img src="" alt="User Photo"/>
+                <img src="" alt="UserPhoto"/>
             </div>
         </div>
     )
