@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './components/Header';
+import Sidebar from './components/Sidebar';
 
 function App() {
 
@@ -8,7 +9,8 @@ function App() {
 
   return (
     <div className="App">
-<Header/>
+      <Header/>
+      <Sidebar/>
       {/* auth true
       sidebar
       file view
