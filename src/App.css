@@ -1,0 +1,32 @@
+.app_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.app_login {
+  width: 100vw;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.app_login button {
+  border: none;
+  font-size: 24px;
+  background-color: #4382f4;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.app_login button:hover {
+  cursor: pointer;
+  background-color: #315eb3;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=App.css.map */
