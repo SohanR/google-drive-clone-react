@@ -1,0 +1,38 @@
+.fileView {
+  width: 100%;
+}
+
+.fileView .fileView_row {
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fileView .fileView_titles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 5px;
+  color: #554e4e;
+}
+
+.fileView .fileView_titles div * {
+  margin: 5px;
+}
+
+.fileView .fileView_titles .fileView_titles--left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.fileView .fileView_titles .fileView_titles--right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=FileView.css.map */
