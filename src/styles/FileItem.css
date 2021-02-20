@@ -1,0 +1,35 @@
+.fileItem {
+  height: 55px;
+  border-bottom: 1px solid #dbdbdb;
+  border-top: 1px solid #dbdbdb;
+  width: 100%;
+}
+
+.fileItem a {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  color: #554e4e;
+}
+
+.fileItem a div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fileItem a div * {
+  margin: 10px;
+}
+
+.fileItem a .fileItem--left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+/*# sourceMappingURL=FileItem.css.map */
