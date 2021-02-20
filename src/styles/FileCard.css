@@ -1,0 +1,39 @@
+.fileCard {
+  height: 190px;
+  width: 240px;
+  border-radius: 10px;
+  border: 1px solid #dbdbdb;
+  margin: 5px;
+}
+
+.fileCard .fileCard--top {
+  height: 70%;
+  border-bottom: 1px solid #dbdbdb;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fileCard .fileCard--bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 30%;
+}
+
+.fileCard .fileCard--bottom p {
+  width: 90%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+/*# sourceMappingURL=FileCard.css.map */
